@@ -1,0 +1,96 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+dist/
+out/
+bin/
+dist_electron/
+release/
+build-temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Package managers
+node_modules/
+__pycache__/
+*.egg-info/
+
+# METALlama specific
+models/
+checkpoints/
+*.gguf
+*.bin
+*.safetensors
+
+# Archive
+archive/
+legacy/
+
+# Node.js
+npm-debug.log*
+*.tsbuildinfo
+
+# Tests output
+tests/output/
+tests/*.log
+
+# Backup files
+*.backup.*

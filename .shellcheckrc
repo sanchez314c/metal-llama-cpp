@@ -1,0 +1,15 @@
+# ShellCheck configuration for METALlama.cpp
+# https://github.com/koalaman/shellcheck/wiki/Directive
+
+# Allow sourcing from paths determined at runtime
+# SC1090: Can't follow non-constant source
+disable=SC1090
+
+# SC1091: Not following sourced file (file not found)
+disable=SC1091
+
+# SC2034: Variable appears unused (used in sourced scripts or templates)
+disable=SC2034
+
+# Default shell dialect
+shell=bash
